@@ -13,7 +13,7 @@
 
  
      
-      <body> 
+   
         <header>
             <img src="cocoheader.jpg" alt="logo" style="width:800px;height:200px" class="centre">
         </header>
@@ -46,22 +46,14 @@
         </div>
       </nav>
       <!-- ==== END NAV BAR ===== -->
+<body class="centered-wrapper">
+  <div class="centered-content"> 
 
 
-  
-
-        <form id="form" role="search">
-            <input type="search" id="query" name="q" placeholder="Search..."
-            aria-label="Search through site content">    
-            <button>Search</button>
-        </form>
-
-      </nav>
-
-      <h2>Reviews!</h2> 
+      <h2>Reviews</h2> 
    
     
-    <p> I love getting feeback and here are some very kind reviews I have recieved from previous customers:</p>
+    <p><b> I love getting feeback and here are some very kind reviews I have recieved from previous customers:</b></p>
     <br>
           <h2>
             Amazing!
@@ -100,19 +92,18 @@
       </body>
     
    
-
-    <footer>
-      <!-- ==== social icons ==== -->
-      <a href="https://twitter.com" target="_blank">
-        <span class='social-icon'><i class="fab fa-twitter"></i></span>
-      </a>
-      <a href="https://facebook.com" target="_blank">
-        <span class='social-icon'><i class="fab fa-facebook-f"></i></span>
-      </a>
-      <a href="https://instagram.com" target="_blank">
-        <span class='social-icon'><i class="fab fa-instagram"></i></span>
-      </a>
-    </footer>
+      <footer>
+        <!-- ==== social icons ==== -->
+        <a href="https://instagram.com" target="_blank" class="centre">
+          <span class='social-icon'><i class="fab fa-instagram"></i></span>
+        </a>
+      </footer>
+      <button class="centre" onclick="topFunction()" id="go-top-button" title="Go to top">Top</button>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="gallery.js"></script>
+  
     <!-- ==== button that scrolls window to the top ==== -->
     <button class="btn btn-primary" onclick="topFunction()" id="go-top-button" title="Go to top">Top</button>
 
@@ -123,6 +114,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- our custom javascript -->
     <script src="reviews.js"></script>
-  </body>
+  </div></body>
 
 </html>
