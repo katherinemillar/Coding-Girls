@@ -11,10 +11,9 @@ navbar {
         padding: 20px;
       }
       header {
-        p {
+      
           margin-right: 150px;
-         }
-      }
+               }
     .centre {
       display:block;
       margin-left: auto;
@@ -66,3 +65,20 @@ footer a {
   .social-icon:hover {
     color: #222;  /* change color when hover over the link */
   }
+
+
+  .centered-wrapper {
+    position: relative;
+    text-align: center;
+}
+.centered-wrapper:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 0; height: 100%;
+    vertical-align: middle;
+}
+.centered-content {
+    display: inline-block;
+    vertical-align: middle;
+}
