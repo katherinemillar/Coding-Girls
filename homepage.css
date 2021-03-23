@@ -1,7 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  min-height: 100vh;
+}
+     
+main {
+  flex: 1;
+}
+
+li{
+  margin-left: 190px;
+}
 
      
-     
-     footer {
+footer {
         display: flex;  /* allows use of "justify-content" property */
         justify-content: center;  /* horizontally centers the contents (the social icons) */
         background-color: rgb(255, 137, 245);
@@ -10,7 +23,7 @@
       }
 
       header {
-          margin-right: 150px;
+          align-items: center;
          }
 
     .centre {
@@ -49,18 +62,18 @@
         right: 30px;  /* Place the button 30px from the right */
         z-index: 99;  /* Make sure it does not overlap */
         border-radius: 50%;  /* makes it round (circle if width and height are the same) */
-      
+        background-color: lavender ;
+        border: black;
+        color:rgb(255, 137, 245);
     }
       
     
-  hr {
-    /* add some fancy styling to the horizontal lines */
-    width: 75%;
-    border: 1.5px solid #ddd;
-    border-radius: 50%;
-  }
-
-h3 {
-    color: rgb(255, 137, 245); 
-    text-align: center;
-}
+    h2 {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 10px;
+    }

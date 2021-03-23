@@ -1,5 +1,13 @@
 
-
+body {
+  display: flex;  /* setting "display: flex" allows its children (e.g. "main" below) to use the "flex" property */
+  flex-direction: column;
+  padding-top: 15px;  /* allow enough space for a fixed navbar (56px is the height of the navbar here) */
+  min-height: 100vh;  /* i.e minimum width is 100% of the "viewport height"... i.e the full screen height */
+}
+main {
+  flex: 1;  /* makes the <main> grow (we want it to grow so that it pushes <footer> to the bottom of page)*/
+}
 navbar {
     color:rgb(255, 137, 245);
       }
@@ -12,7 +20,7 @@ navbar {
       }
       header {
       
-          margin-right: 150px;
+        align-items: center;
                }
     .centre {
       display:block;
@@ -46,8 +54,28 @@ navbar {
         right: 30px;  /* Place the button 30px from the right */
         z-index: 99;  /* Make sure it does not overlap */
         border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+        background-color: lavender ;
+        border: black;
+        color:rgb(255, 137, 245);
       }
 
+      h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
+      }
+
+      h3 {
+        margin-left: 100px;
+        background-color: lightcoral;
+        padding-top: 20px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        margin-left: 120px;
+        margin-right: 120px;
+      }
+      
 
 
 
