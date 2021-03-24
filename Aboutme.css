@@ -36,7 +36,7 @@ header {
     justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
     align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
     border-radius: 50%;  /* makes it round (circle if width and height are the same) */
-    margin-left: 710px;
+    margin-left: 575px;
   }
   .social-icon:hover {
     color: #222;  /* change color when hover over the link */
@@ -58,7 +58,7 @@ header {
   background-color: lavender;
   padding-top: 30px;
   padding-right: 40px;
-  padding-bottom: 93px;
+  padding-bottom: 80px;
   padding-left: 100px;
   margin-left: 120px;
   margin-right: 120px;
